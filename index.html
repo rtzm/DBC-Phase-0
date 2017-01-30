@@ -2,106 +2,130 @@
 <html>
 <head>
 	<title>Personal page for DBC Phase 0 - 2.5</title>
+
+<!-- TO DO:
+	- make sure images have proper attributes set.
+	- make second-page.html with more information, and link back
+	- comparison to other site: Find an existing website about your topic (or similar). What makes this site good or bad? Look at the source code (View Source). Do you recognize any HTML elements? Try to guess what the things you don't recognize do. Add a link to this website and a few sentences about what makes it good or bad to your index.html page.
+	- validate with HTML validator
+-->
 </head>
 <body>
-	<h1>Dante's salty bread</h1>
-	<p>In <em>Paradiso</em>, the third book of Dante's <em>Divine Comedy</em>, Dante meets Cacciaguida, who tells the narrator how his life will be under exile. When I read these lines in undergrad, they really stuck with me, so I wanted to make a site about them.</p>
-	<p>Here's the text in the original Italian:</p>
-	<blockquote><em>
-		Tu lascerai ogne cosa diletta<br>
-		più caramente; e questo è quello strale<br>
-		che l’arco de lo essilio pria saetta. <br>
-		Tu proverai sì come sa di sale <br>
-		lo pane altrui, e come è duro calle<br>
-		lo scendere e ’l salir per l’altrui scale.
-	</em></blockquote>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Portrait_de_Dante.jpg" alt="Dante Alighieri">
-	<caption>An image of Dante from <a href="https://en.wikipedia.org/wiki/Dante_Alighieri#/media/File:Portrait_de_Dante.jpg">Wikipedia</a>.</caption>
-	<h2>Translations into English</h2>
-	<p>Here are a couple of different ways that the text was translated into English in a table.</p>
-	<table border="1" maxwidth="200px">
-		<tr>
-			<th>Translator</th>
-			<th>Text</th>
-			<th>Language</th>
-			<th>Publication date</th>
-			<th>Source</th>
-		</tr>
-		<tr>
-			<td>Original</td>
-			<td><p><em>Tu lascerai ogne cosa diletta<br>
-				più caramente; e questo è quello strale<br>
-				che l’arco de lo essilio pria saetta. <br>
-				Tu proverai sì come sa di sale <br>
-				lo pane altrui, e come è duro calle<br>
-				lo scendere e ’l salir per l’altrui scale.</em></p>
-			</td>
-			<td>Italian</td>
-			<td>1308-1320</td>
-			<td><a href="http://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/">Source</a></td>
-		</tr>
-		<tr>
-			<td>Robert Durling</td>
-			<td><p>&nbsp;&nbsp;&nbsp;&nbsp;You will leave behind everything beloved most dearly, and this is the arrow that the bow of exile first lets fly.<br>
-				&nbsp;&nbsp;&nbsp;&nbsp;You will experience hos salty tastes the bread of another, and what a hard path it is to descend and mount by another's stairs.</p>
-			</td>
-			<td rowspan="5">English</td>
-			<td>1996-2007</td>
-			<td><a href="https://books.google.com/books?id=89wdDAAAQBAJ&printsec=frontcover&dq=translations+of+dante%27s+paradiso&hl=en&sa=X&ved=0ahUKEwj1-emel-PRAhWF1IMKHfFaAYkQ6AEINzAF#v=snippet&q=bread%20of%20another&f=false">Source</a></td>
-		</tr>
-		<tr>
-			<td>Henry Wadsworth Longfellow</td>
-			<td><p>Thou shalt abandon everything beloved<br>
-				Most tenderly, and this the arrow is <br>
-				Which first the bow of banishment shoots forth.<br>
-				Thou shalt have proof how savoureth of salt <br>
-				The bread of others, and how hard a road <br>
-				The going down and up another’s stairs.<br></p>
-			</td>
-			<td>1867</td>
-			<td><a href="http://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/">Source</a></td>
-		</tr>
-		<tr>
-			<td>Allen Mandelbaum</td>
-			<td><p>You shall leave everything you love most dearly: <br>
-				this is the arrow that the bow of exile <br>
-				shoots first. You are to know the bitter taste<br>
-				of others’ bread, how salt it is, and know <br>
-				how hard a path it is for one who goes <br>
-				descending and ascending others’ stairs.</p>
-			</td>
-			<td>1980-1984</td>
-			<td><a href="http://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/">Source</a></td>
-		</tr>
-		<tr>
-			<td>John D. Sinclair</td>
-			<td><p>Thou shalt leave everything loved most dearly, and this is the shaft which the bow of exile shoots first. Thou shalt prove how salt is the taste of another man's bread and how hard is the way up and down another man's stairs.</p>
-			</td>
-			<td>1939-1946</td>
-			<td><a href="https://books.google.com/books?id=APAhsMn-61kC&printsec=frontcover&dq=translations+of+dante%27s+paradiso&hl=en&sa=X&ved=0ahUKEwj1-emel-PRAhWF1IMKHfFaAYkQ6AEIIDAB#v=onepage&q=salt&f=false">Source</a></td>
-		</tr>
-		<tr>
-			<td>Charles Eliot Norton</td>
-			<td><p>Thou shalt leave everything beloved most dearly; and this is the arrow which the bow of exile first shoots. Thou shalt prove how the bread of others savors of salt, and how the descending and the mounting of another's stairs is a hard path.</p>
-			</td>
-			<td>1891-1892</td>
-			<td><a href="http://www.gutenberg.org/ebooks/1997">Source</a></td>
-		</tr>	
-	</table>
+	<header>
+		<h1>A personal page about a quote from Dante's <em>Paradiso</em></h1>
+		<nav>
+			<ul>
+				<li><a href="#intro">Introduction</a></li>
+				<li><a href="#translations">Translations</a></li>
+				<li><a href="#another">Another Take</a></li>
+				<li><a href="#comparison">Comparison</a></li>
+				<li><a href="second-page.html">A second page with further information</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2><a name="intro">Dante's salty bread</a></h2>
+		<p>In <em>Paradiso</em>, the third book of Dante's <em>Divine Comedy</em>, Dante meets Cacciaguida, who tells the narrator how his life will be under exile. When I read these lines in undergrad, they really stuck with me, so I wanted to make a site about them.</p>
+		<p>Here's the text in the original Italian:</p>
+		<blockquote><em>
+			Tu lascerai ogne cosa diletta<br>
+			più caramente; e questo è quello strale<br>	
+			che l’arco de lo essilio pria saetta. <br>
+			Tu proverai sì come sa di sale <br>
+			lo pane altrui, e come è duro calle<br>
+			lo scendere e ’l salir per l’altrui scale.
+		</em></blockquote>
+		<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Portrait_de_Dante.jpg" alt="Dante Alighieri">
+		<caption>An image of Dante from <a href="https://en.wikipedia.org/wiki/Dante_Alighieri#/media/File:Portrait_de_Dante.jpg">Wikipedia</a>.</caption>
+		<h2><a name="translations">Translations into English</a></h2>
+		<p>Here are a couple of different ways that the text was translated into English in a table.</p>
+		<table border="1" maxwidth="200px">
+			<tr>
+				<th>Translator</th>
+				<th>Text</th>
+				<th>Language</th>
+				<th>Publication date</th>
+				<th>Source</th>
+			</tr>
+			<tr>
+				<td>Original</td>
+				<td><p><em>Tu lascerai ogne cosa diletta<br>
+					più caramente; e questo è quello strale<br>
+					che l’arco de lo essilio pria saetta. <br>
+					Tu proverai sì come sa di sale <br>
+					lo pane altrui, e come è duro calle<br>
+					lo scendere e ’l salir per l’altrui scale.</em></p>
+				</td>
+				<td>Italian</td>
+				<td>1308-1320</td>
+				<td><a href="http://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/">Source</a></td>
+			</tr>
+			<tr>
+				<td>Robert Durling</td>
+				<td><p>&nbsp;&nbsp;&nbsp;&nbsp;You will leave behind everything beloved most dearly, and this is the arrow that the bow of exile first lets fly.<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;You will experience hos salty tastes the bread of another, and what a hard path it is to descend and mount by another's stairs.</p>
+				</td>
+				<td rowspan="5">English</td>
+				<td>1996-2007</td>
+				<td><a href="https://books.google.com/books?id=89wdDAAAQBAJ&printsec=frontcover&dq=translations+of+dante%27s+paradiso&hl=en&sa=X&ved=0ahUKEwj1-emel-PRAhWF1IMKHfFaAYkQ6AEINzAF#v=snippet&q=bread%20of%20another&f=false">Source</a></td>
+			</tr>
+			<tr>
+				<td>Allen Mandelbaum</td>
+				<td><p>You shall leave everything you love most dearly: <br>
+					this is the arrow that the bow of exile <br>
+					shoots first. You are to know the bitter taste<br>
+					of others’ bread, how salt it is, and know <br>
+					how hard a path it is for one who goes <br>
+					descending and ascending others’ stairs.</p>
+				</td>
+				<td>1980-1984</td>
+				<td><a href="http://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/">Source</a></td>
+			</tr>
+			<tr>
+				<td>John D. Sinclair</td>
+				<td><p>Thou shalt leave everything loved most dearly, and this is the shaft which the bow of exile shoots first. Thou shalt prove how salt is the taste of another man's bread and how hard is the way up and down another man's stairs.</p>
+				</td>
+				<td>1939-1946</td>
+				<td><a href="https://books.google.com/books?id=APAhsMn-61kC&printsec=frontcover&dq=translations+of+dante%27s+paradiso&hl=en&sa=X&ved=0ahUKEwj1-emel-PRAhWF1IMKHfFaAYkQ6AEIIDAB#v=onepage&q=salt&f=false">Source</a></td>
+			</tr>
+			<tr>
+				<td>Charles Eliot Norton</td>
+				<td><p>Thou shalt leave everything beloved most dearly; and this is the arrow which the bow of exile first shoots. Thou shalt prove how the bread of others savors of salt, and how the descending and the mounting of another's stairs is a hard path.</p>
+				</td>
+				<td>1891-1892</td>
+				<td><a href="http://www.gutenberg.org/ebooks/1997">Source</a></td>
+			</tr>	
+			<tr>
+				<td>Henry Wadsworth Longfellow</td>
+				<td><p>Thou shalt abandon everything beloved<br>
+					Most tenderly, and this the arrow is <br>
+					Which first the bow of banishment shoots forth.<br>
+					Thou shalt have proof how savoureth of salt <br>
+					The bread of others, and how hard a road <br>
+					The going down and up another’s stairs.<br></p>
+				</td>
+				<td>1867</td>
+				<td><a href="http://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/">Source</a></td>
+			</tr>
+		</table>
 
-	<p>Source of dates and names are from <a href="https://en.wikipedia.org/wiki/English_translations_of_Dante's_Divine_Comedy">Wikipedia</a>.</p>
-	<img src="http://www.worldofdante.org/media/images/purg/full/NC257_B7_L55_1921Paradiso17.jpg">
-	<caption>Here is a picture of that scene by Sandro Botticelli. You can find all of Botticelli's drawings at <a href="http://www.worldofdante.org/gallery_botticelli.html">World of Dante.</a></caption>
+		<p>Source of dates and names are from <a href="https://en.wikipedia.org/wiki/English_translations_of_Dante's_Divine_Comedy">Wikipedia</a>.</p>
+		<img src="http://www.worldofdante.org/media/images/purg/full/NC257_B7_L55_1921Paradiso17.jpg">
+		<caption>Here is a picture of that scene by Sandro Botticelli. You can find all of Botticelli's drawings at <a href="http://www.worldofdante.org/gallery_botticelli.html">World of Dante.</a></caption>
 
-	<aside>
-		<h2>Another take on the classic...</h2>
-		<p>Here's another translation of the text, used in the show <em>Community</em>. This one is <strong>a little stranger...</strong></p>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/pn3d5SA4vnk" frameborder="0" allowfullscreen></iframe>
-		<p>It's strange that the <a href="https://www.youtube.com/channel/UC25XBWTPxNWrBeKKcALfAZQ">user</a> who uploaded this seems to have been as struck by the quote as I was, since he named his username after it!</p>
-	</aside>
-
-	<h2>Comparison to another page</h2>
-	<p>Let's look at another translation of Dante, this time in Columbia University's <a href="http://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/">Digital Dante</a> website.</p>
-	<p>Here, we can see that they include more information about the verses, as well as links to different translations of the text. (I used this site to find some of the translations used above.)</p>
+		<aside>
+			<h3><a name="another">Another take on the classic...</a></h3>
+			<p>Here's another translation of the text, used in the show <em>Community</em>. This one is <strong>a little stranger...</strong></p>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/pn3d5SA4vnk" frameborder="0" allowfullscreen></iframe>
+			<p>It's strange that the <a href="https://www.youtube.com/channel/UC25XBWTPxNWrBeKKcALfAZQ">user</a> who uploaded this seems to have been as struck by the quote as I was, since he named his username after it!</p>
+		</aside>
+	
+		<h2><a name="comparison">Comparison of this page to another page</a></h2>
+		<p>Let's look at another translation of Dante, this time in Columbia University's <a href="http://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/">Digital Dante</a> website.</p>
+		<p>Here, we can see that they include more information about the verses, as well as links to different translations of the text. (I used this site to find some of the translations used above.)</p>
+	</main>
+	<footer>
+		<p>This has been a webpage by Simon Swartzman for Dev Bootcamp Phase 0, Week 2, exercise 2.5.</p>
+	</footer>
 </body>
 </html>
