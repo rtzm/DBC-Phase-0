@@ -2,13 +2,6 @@
 <html>
 <head>
 	<title>Personal page for DBC Phase 0 - 2.5</title>
-
-<!-- TO DO:
-	- make sure images have proper attributes set.
-	- make second-page.html with more information, and link back
-	- comparison to other site: Find an existing website about your topic (or similar). What makes this site good or bad? Look at the source code (View Source). Do you recognize any HTML elements? Try to guess what the things you don't recognize do. Add a link to this website and a few sentences about what makes it good or bad to your index.html page.
-	- validate with HTML validator
--->
 </head>
 <body>
 	<header>
@@ -24,7 +17,7 @@
 		</nav>
 	</header>
 	<main>
-		<h2><a name="intro">Dante's salty bread</a></h2>
+		<h2 id="intro">Dante's salty bread</h2>
 		<p>In <em>Paradiso</em>, the third book of Dante's <em>Divine Comedy</em>, Dante meets Cacciaguida, who tells the narrator how his life will be under exile. When I read these lines in undergrad, they really stuck with me, so I wanted to make a site about them.</p>
 		<p>Here's the text in the original Italian:</p>
 		<blockquote><em>
@@ -35,11 +28,13 @@
 			lo pane altrui, e come è duro calle<br>
 			lo scendere e ’l salir per l’altrui scale.
 		</em></blockquote>
-		<img src="dante.jpg" alt="Dante Alighieri">
-		<caption>An image of Dante from <a href="https://en.wikipedia.org/wiki/Dante_Alighieri#/media/File:Portrait_de_Dante.jpg">Wikipedia</a>.</caption>
-		<h2><a name="translations">Translations into English</a></h2>
+		<figure>
+			<img src="dante.jpg" alt="Dante Alighieri" title="Here is a classic image of Dante Alighieri.">
+			<figcaption>An image of Dante from <a href="https://en.wikipedia.org/wiki/Dante_Alighieri#/media/File:Portrait_de_Dante.jpg">Wikipedia</a>.</figcaption>
+		</figure>
+		<h2 id="translations">Translations into English</h2>
 		<p>Here are a couple of different ways that the text was translated into English in a table.</p>
-		<table border="1" maxwidth="200px">
+		<table border="1">
 			<tr>
 				<th>Translator</th>
 				<th>Text</th>
@@ -110,19 +105,23 @@
 		</table>
 
 		<p>Source of dates and names are from <a href="https://en.wikipedia.org/wiki/English_translations_of_Dante's_Divine_Comedy">Wikipedia</a>.</p>
-		<img src="botticelli.jpg" alt="line drawing of the scene by Botticelli">
-		<caption>Here is a picture of that scene by Sandro Botticelli. You can find all of Botticelli's drawings at <a href="http://www.worldofdante.org/gallery_botticelli.html">World of Dante.</a></caption>
-
+		<figure>
+			<img src="botticelli.jpg" alt="line drawing of the scene by Botticelli" title="This is a line drawing by Sandro Botticelli of Dante's Paradiso, Canto 17.">
+			<figcaption>Here is a picture of that scene by Sandro Botticelli. You can find all of Botticelli's drawings at <a href="http://www.worldofdante.org/gallery_botticelli.html">World of Dante.</a></figcaption>
+		</figure>
 		<aside>
-			<h3><a name="another">Another take on the classic...</a></h3>
+			<h3 id="another">Another take on the classic...</h3>
 			<p>Here's another translation of the text, used in the show <em>Community</em>. This one is <strong>a little stranger...</strong></p>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/pn3d5SA4vnk" frameborder="0" allowfullscreen></iframe>
+			<figure><iframe width="560" height="315" src="https://www.youtube.com/embed/pn3d5SA4vnk" frameborder="0" allowfullscreen></iframe></figure>
 			<p>It's strange that the <a href="https://www.youtube.com/channel/UC25XBWTPxNWrBeKKcALfAZQ">user</a> who uploaded this seems to have been as struck by the quote as I was, since he named his username after it!</p>
 		</aside>
-	
-		<h2><a name="comparison">Comparison of this page to another page</a></h2>
+
+		<h2 id="comparison">Comparison of this page to another page</h2>
 		<p>Let's look at another translation of Dante, this time in Columbia University's <a href="http://digitaldante.columbia.edu/dante/divine-comedy/paradiso/paradiso-17/">Digital Dante</a> website.</p>
 		<p>Here, we can see that they include more information about the verses, as well as links to different translations of the text. (I used this site to find some of the translations used above.)</p>
+		<p>This site is good because it mixes in some elements of modern web design with some classical medieval iconography, which captures the themes of the original text in a way that is still user friendly for modern users. The header helps orient the reader, with the nav at the top out of the way and condensed. The header forces the user to scroll down before getting to the content, but that's not a huge issue for pages like this that encourage slower use. In the main text area, it allows users to go back and forth between commentary and text in a way that is intuitive (tab formats at the top). Sidebars are well demarcated with good headings (Coordinated Reading, Recommended Citation, etc).</p>
+		<p>A couple of bad elements: The text samples seem to be weirdly formatted such that I get a bunch of horizontal scroll bars if my window isn't full-sized. Also, the text of the full chapter is in an iframe, which makes scrolling less intuitive than if it were just in this page itself. Images seem to take a while to load, though, as well. </p>
+		<p>Looking at the source, it looks like there's good semantic code (nav, article, pre, footer, etc). A lot of code dedicated just to the nav bars at the top, jeez. The indenting doesn't seem to be very consistent, with most things flush against the left wall.</p>
 	</main>
 	<footer>
 		<p>This has been a webpage by Simon Swartzman for Dev Bootcamp Phase 0, Week 2, exercise 2.5.</p>
