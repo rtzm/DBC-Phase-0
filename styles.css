@@ -4,7 +4,7 @@
 /*	outline: 1px solid red;*/
 }
 
-/** color scheme:
+/** color scheme from Dante picture:
 
 background: #DAD4C9;
 highlights: #A60830;
@@ -16,7 +16,7 @@ accent 3: #2A3D1E;
 
 body {
 	font: 15px Palatino, "Palatino Linotype", "Book Antiqua", serif;
-	line-height: 135%;
+	line-height: 140%;
 	color: #333;
 	background: #DAD4C9;
 	max-width: 800px;
@@ -68,12 +68,10 @@ nav	li {
 }
 
 h2 {
-	margin: 1em 0em .5em 1em;
+	margin: 1em 0 .5em 1em;
 }
 
-/**
-marginalia image courtesy of https://commons.wikimedia.org/wiki/File:Boucicaut_Master_Illuminator_(French,_active_about_1390_-_1430)_-_Boccaccio's_Vision_of_the_Laurel-Crowned_Petrarch_-_Google_Art_Project.jpg
-**/
+
 
 blockquote {
 	display: block;
@@ -84,6 +82,10 @@ blockquote {
 	border-radius: 2em 1em 2em 1em;
 	padding: 15px;
 }
+
+/**
+marginalia image courtesy of https://commons.wikimedia.org/wiki/File:Boucicaut_Master_Illuminator_(French,_active_about_1390_-_1430)_-_Boccaccio's_Vision_of_the_Laurel-Crowned_Petrarch_-_Google_Art_Project.jpg
+**/
 
 figure {
 	margin: 1em 0;
@@ -103,15 +105,16 @@ figcaption {
 
 .italian {
 	font-style: italic;
+	font-weight: bold;
 }
 
 .verse {
-	max-width: 570px;
+	max-width: 600px;
 }
 
 table {
-	margin: 1.25em 1.25em 1.25em 5em;
-	width: 80%;
+	margin: 1.25em auto;
+	width: 90%;
 }
 
 th {
@@ -125,19 +128,15 @@ td {
 }
 
 aside {
-
+	display: block;
+	max-width: 380px; 
+	border: 1px #A67E47 dashed;
+	margin: 10px 0px 10px 400px;
+	padding: 10px;
 }
 
 footer {
 	font-size: 85%;
-	position: absolute;
-	left: 30%;
-	right: 30%;
-	background-image: 
-}
-
-footer p {
-	display: block;
-	margin: 0 auto;
 	text-align: center;
+	margin: 0 25%;
 }
