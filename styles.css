@@ -128,10 +128,10 @@ td {
 }
 
 aside {
-	display: block;
-	max-width: 380px; 
+	float: right;
+	max-width: 360px; 
 	border: 1px #A67E47 dashed;
-	margin: 10px 0px 10px 400px;
+	margin: 10px;
 	padding: 10px;
 }
 
